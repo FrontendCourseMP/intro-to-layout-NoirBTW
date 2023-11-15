@@ -1,45 +1,92 @@
-body{
+/* Переменные */
+:root {
+  --text-color: #FFF;
+  --background-color: #0A1117;
+  --font-size: 62.5%;
+}
+
+/* Ориентация контента */
+body {
     width: 328px;
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
+    font-style: normal;
 }
 
 html {
     display: table;
     margin: auto;
+    font-size: var(--font-size);
 }
 
-.htext{
-  color: var(--fg-foreground-primary, #000000);
-  text-align: center;
-  font-family: 'LoosWide';
-  font-size: 36px;
+/* Шрифты */
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat500';
+  font-style:normal;
+  font-weight: 600;
+  src: url('fontes/montserrat-v26-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat700';
   font-style: normal;
   font-weight: 700;
-  line-height: 44px;
+  src: url('fontes/montserrat-v26-cyrillic_latin-700.woff2') format('woff2');
 }
 
-a{
+@font-face {
+  font-display: swap;
+  font-family: 'LoosBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fontes/Srbija Sans.woff2') format('woff2');
+}
+
+/* Стилизация тегов */
+p {
+  font-family: 'Montserrat500';
+  color: var(--text-color)
+}
+
+h1 {
+  font-family: 'LoosBold';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px ;
+  color: var(--text-color)  
+}
+
+li {
+  font-family: 'Montserrat500';
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-color)
+}
+
+main {
+  margin-top: -30px;
+}
+
+/* Классы */
+.background {
+  width: 328px;
+  background-color: var(--background-color);
+}
+
+.white a {
+  color: #10151A;
   text-decoration: none;
 }
 
-/* montserrat-regular - cyrillic_latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Montserrat400';
-  font-style: normal;
-  font-weight: 400;
-  src: url('fontes/montserrat-v26-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* montserrat-700 - cyrillic_latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Montserrat700';
-  font-style: normal;
-  font-weight: 700;
-  src: url('fontes/montserrat-v26-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+.notwhite a {
+  color: #FFF;
+  text-decoration: none;
 }
 
-p {
-  font-family: 'Montserrat700';
+.notnotwhite a {
+  color: #8395A7;
+  text-decoration: none;
 }
