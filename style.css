@@ -476,3 +476,40 @@ line-height: 1.8;
   font-size: 1.8rem;
   line-height: 1.77;
 }
+
+.podcasttitle{
+  color: var(--text-color);
+  font-family: 'Montserrat700';
+  font-size: 1.7rem;
+  line-height: 1.41;
+}
+
+.podcastnamepod {
+  color: #E2E2E2;
+  font-family: 'Montserrat600';
+  font-size: 1.4rem;
+  line-height: 1.71;
+  opacity: 0.8;
+}
+
+.podcastfirstsecond {
+  color: #E2E2E2;
+  font-family: 'Montserrat600';
+  font-size: 1.4rem;
+  line-height: 1.42;
+  opacity: 0.8;
+}
+
+.podacstlink {
+  color: var(--text-color);
+  font-family: 'Montserrat700';
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
+.footlink {
+  color: var(--text-color);
+  font-family: 'Montserrat600';
+  font-size: 1.4rem;
+  line-height: normal;
+}
