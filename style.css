@@ -310,6 +310,13 @@ a {
   font-family: 'Montserrat700';
   font-size: 1.5rem;
   line-height: 2;
+  display: inline-flex;
+  padding: 8px 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #FFCF01;
+  box-shadow: 0px 7px 36px 0px rgba(255, 207, 1, 0.20);
 }
 
 .texth2 {
@@ -324,13 +331,25 @@ a {
   font-family: 'Montserrat600';
   font-size: 1.4rem;
   line-height: 1.14;
-}
+  display: inline-flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 44.939px;
+  background: #182632;
+  }
 
 .read2 {
   color: #FFC24C;
   font-family: 'Montserrat600';
   font-size: 1.4rem;
   line-height: 1.14;
+  display: inline-flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 44.939px;
+  background: #182632;
 }
 
 .read3 {
@@ -338,6 +357,12 @@ a {
   font-family: 'Montserrat600';
   font-size: 1.4rem;
   line-height: 1.14;
+  display: inline-flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 44.939px;
+  background: #182632;
 }
 
 .read4 {
@@ -345,6 +370,12 @@ a {
   font-family: 'Montserrat600';
   font-size: 1.4rem;
   line-height: 1.14;
+  display: inline-flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 44.939px;
+  background: #182632;
 }
 
 .read5 {
@@ -352,6 +383,12 @@ a {
   font-family: 'Montserrat600';
   font-size: 1.4rem;
   line-height: 1.14;
+  display: inline-flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 44.939px;
+  background: #182632;
 }
 
 .read6 {
@@ -359,6 +396,12 @@ a {
   font-family: 'Montserrat600';
   font-size: 1.4rem;
   line-height: 1.14;
+  display: inline-flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 44.939px;
+  background: #182632;
 }
 
 .read7 {
@@ -366,6 +409,12 @@ a {
   font-family: 'Montserrat600';
   font-size: 1.4rem;
   line-height: 1.14;
+  display: inline-flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 44.939px;
+  background: #182632;
 }
 
 .underpicture{
@@ -373,6 +422,14 @@ a {
   font-family: 'Montserrat700';
   font-size: 1.3rem;
   line-height: 1.84;
+  display: inline-flex;
+  padding: 2px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 3px solid #0A1117;
+  background: #FFA800;
 }
 
 .designul {
@@ -408,6 +465,15 @@ line-height: 1.8;
   font-family: 'Montserrat700';
   font-size: 1.5rem;
   line-height: 2.4;
+  display: flex;
+  width: 190px;
+  height: 44px;
+  padding: 4px 29px 4px 30px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(255, 207, 1, 0.15);
 }
 
 .worksul {
@@ -425,6 +491,13 @@ line-height: 1.8;
   line-height: normal;
 }
 
+.sectionweek {
+  flex-shrink: 0;
+  border-radius: 22px;
+  border: 1px solid #2A3744;
+  background: #14212D;
+}
+
 .weektext {
   color: #9AAFC3;
   font-family: 'Montserrat600';
@@ -432,11 +505,21 @@ line-height: 1.8;
   line-height: 1.47;
 }
 
+.emailblock {
+  display: flex;
+  padding: 13px 184px 13px 18px;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #2A3744;
+  background: #121E28;
+}
+
 .emailtext {
   color: #3D4C5B;
   font-family: 'Montserrat600';
   font-size: 1.4rem;
   line-height: 1.28;
+  background: #121E28;
 }
 
 .subbutton {
@@ -444,6 +527,34 @@ line-height: 1.8;
   font-family: 'Montserrat600';
   font-size: 1.4rem;
   line-height: 1.71;
+  display: flex;
+  width: 280px;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: var(--purple-light, #E2C1F9);
+}
+
+.pressblock1 {
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #77E6FF;
+  text-align: start;
+}
+
+.pressblock2 {
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #E2C1F9;
+  text-align: start;
+}
+
+.pressblock3 {
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #DBE268;
+  text-align: start;
 }
 
 .pressh {
@@ -475,6 +586,15 @@ line-height: 1.8;
   font-family: 'Montserrat700';
   font-size: 1.8rem;
   line-height: 1.77;
+}
+
+.podcastblock {
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2px solid #2A3744;
+  background: #121E28;
+  backdrop-filter: blur(2px);
+  text-align: start;
 }
 
 .podcasttitle{
@@ -513,3 +633,4 @@ line-height: 1.8;
   font-size: 1.4rem;
   line-height: normal;
 }
+
