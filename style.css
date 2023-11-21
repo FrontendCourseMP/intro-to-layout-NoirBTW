@@ -537,6 +537,12 @@ a {
   line-height: 1.28;
 }
 
+.artwatch {
+  display: flex;
+  padding-inline: 0;
+  margin-inline: auto;
+}
+
 .linkwatch {
   color: #FFCF01;
   font-family: 'Montserrat700';
