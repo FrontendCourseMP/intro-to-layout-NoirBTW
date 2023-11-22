@@ -278,6 +278,7 @@
 body {
   background: var(--background-color);
   text-align: center;
+  margin: 0 0 0 0;
 }
 
 header {
@@ -298,6 +299,11 @@ a {
   text-decoration: none;
 }
 
+footer {
+  margin-top: 80px  ;
+  
+}
+
 
 /* Классы */
 
@@ -305,12 +311,18 @@ a {
   background: #0b1219;
   border: none;
 }
+
+.DAOsec {
+  margin-inline: 16px;
+}
+
 .texth1 {
   color: var(--text-color);
   font-family: 'figtree700';
   font-size: 3.6rem;
   line-height: 1.22;
   margin-bottom: 0px;
+  margin-inline: 7px;
 }
 
 .textregular {
@@ -320,6 +332,7 @@ a {
   line-height: 1.55;
   margin-top: 16px;
   margin-bottom: 0px;
+  margin-inline: 7px;
 }
 
 .linkget {
@@ -344,10 +357,11 @@ a {
   font-size: 2.8rem;
   line-height: 1.28;
   margin-top: 100px;
+  margin-inline: 16px;
 }
 
 .readdiv {
-  margin: 24px 0 0 0;
+  margin: 24px 16px 0 16px;
 }
 
 .readul {
@@ -488,6 +502,7 @@ a {
   line-height: 1.28;
   margin-top: 68px;
   margin-bottom: 0px;
+  margin-inline: 16px;
 }
 
 .designul {
@@ -496,7 +511,8 @@ a {
   font-size: 2rem;
   line-height: 1.8;
   list-style-type: none;
-  margin: 24px 0 0 -40px;
+  margin: 24px 16px 0 16px;
+  padding-left: 0px;
 }
 
 .designulone {
@@ -513,6 +529,7 @@ a {
   line-height: 1.28;
   margin-top: 80px;
   margin-bottom: 0px;
+  margin-inline: 16px;
 }
 
 .alldesign {
@@ -522,7 +539,7 @@ a {
   font-size: 1.4rem;
   line-height: 1.15;
   list-style-type: none;
-  margin: 24px 0 24px 0;
+  margin: 24px 16px 24px 16px;
   padding-inline: 0;
   gap: 8px;
   flex-wrap: wrap-reverse;
@@ -568,7 +585,7 @@ a {
   line-height: 1.28;
   margin-top: 80px;
   margin-bottom: 0px;
-  margin-inline: auto;
+  margin-inline: 16px;
 }
 
 .worksul {
@@ -622,6 +639,7 @@ a {
   font-size: 2.8rem;
   line-height: 1.28;
   margin-top: 80px;
+  margin-inline: 16px;
 }
 
 .divemimg {
@@ -661,6 +679,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-inline: 16px;
 }
 
 .helpimg {
@@ -749,7 +768,6 @@ a {
   display: flex;
   gap: 16px;
   padding: 0;
-  /* margin-left: -8px; */
   align-items: center;
   margin-top: 0px;
 }
@@ -758,7 +776,6 @@ a {
   display: flex;
   gap: 16px;
   padding: 0;
-  /* margin-left: -8px; */
   align-items: center;
   margin-top: 0px;
 }
@@ -776,11 +793,50 @@ a {
   margin-bottom: 24px;
 }
 
+.presssection {
+  margin-inline: 16px;
+}
+
+.pressimg {
+  margin: 20px 116px 12px 20px;
+}
+
+.pressblock1 h3 {
+  margin: 0px 20px 12px 20px;
+}
+
+.pressblock1 p {
+  margin: 0px 20px 19px 20px
+}
+
+.pressblock1 a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0px 8px 20px 20px
+}
+
 .pressblock1 {
   flex-shrink: 0;
   border-radius: 20px;
   background: #77E6FF;
   text-align: start;
+  margin-bottom: 16px;
+}
+
+.pressblock2 h3 {
+  margin: 0px 20px 12px 20px;
+}
+
+.pressblock2 p {
+  margin: 0px 20px 19px 20px
+}
+
+.pressblock2 a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0px 8px 20px 20px
 }
 
 .pressblock2 {
@@ -788,6 +844,22 @@ a {
   border-radius: 20px;
   background: #E2C1F9;
   text-align: start;
+  margin-bottom: 16px;
+}
+
+.pressblock3 h3 {
+  margin: 0px 20px 12px 20px;
+}
+
+.pressblock3 p {
+  margin: 0px 20px 19px 20px
+}
+
+.pressblock3 a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0px 8px 20px 20px
 }
 
 .pressblock3 {
@@ -795,6 +867,7 @@ a {
   border-radius: 20px;
   background: #DBE268;
   text-align: start;
+  margin-bottom: 40px;
 }
 
 .pressh {
@@ -826,6 +899,15 @@ a {
   font-family: 'Montserrat700';
   font-size: 1.8rem;
   line-height: 1.77;
+  margin-bottom: 0px;
+}
+
+.textpod {
+  color: var(--text-color);
+  font-family: 'figtree700';
+  font-size: 2.8rem;
+  line-height: 1.28;
+  margin-top: 80px;
 }
 
 .podcastblock {
@@ -835,6 +917,12 @@ a {
   background: #121E28;
   backdrop-filter: blur(2px);
   text-align: start;
+  margin-inline: 16px;
+  margin-bottom: 16px;
+}
+
+.podimg {
+  margin: 24px 268px 16px 20px;
 }
 
 .podcasttitle{
@@ -842,6 +930,7 @@ a {
   font-family: 'Montserrat700';
   font-size: 1.7rem;
   line-height: 1.41;
+  margin: 0px 20px 12px 20px;
 }
 
 .podcastnamepod {
@@ -850,6 +939,7 @@ a {
   font-size: 1.4rem;
   line-height: 1.71;
   opacity: 0.8;
+  margin: 0px 20px 0px 20px;
 }
 
 .podcastfirstsecond {
@@ -858,6 +948,7 @@ a {
   font-size: 1.4rem;
   line-height: 1.42;
   opacity: 0.8;
+  margin: 0px 40px 17px 20px;
 }
 
 .podacstlink {
@@ -865,7 +956,59 @@ a {
   font-family: 'Montserrat700';
   font-size: 1.2rem;
   line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0px 8px 20px 20px
 }
+
+.pressseea {
+  display: flex;
+  color: #8395A7;
+  text-align: center;
+  justify-items: center;
+  text-shadow: 0px 2px 25px rgba(0, 0, 0, 0.60);
+  font-family: 'Montserrat700';
+  font-size: 1.8rem;
+  line-height: 1.77;
+  margin-top: 40px;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+  }
+
+.footwrap {
+  max-width: 220px;
+  padding: 32px 70px 32px 70px;
+  margin-inline: auto;
+}
+
+.footsec {
+  background: #121e28;
+}
+
+.footul1{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-inline: 0;
+  margin-inline: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  gap: 40px;
+}
+
+.footul2{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-inline: 0;
+  margin-inline: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  gap: 20px;
+}
+
 
 .footlink {
   color: var(--text-color);
