@@ -4,7 +4,6 @@
   --text-color: #FFF;
   --background-color: #0A1117;
   --link-color: #10151A;
-  --font-size: 62.5%;
   --yellow: #FFC803;
 }
 
@@ -12,77 +11,14 @@
 /* Шрифты */
 
 /* Montseratt font */
-/* montserrat-100 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat100';
-  font-style: normal;
-  font-weight: 100;
-  src: url('fonts/montserrat-v26-latin-100.woff2') format('woff2');
-}
-/* montserrat-100italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat100it';
-  font-style: italic;
-  font-weight: 100;
-  src: url('fonts/montserrat-v26-latin-100italic.woff2') format('woff2');
-}
-/* montserrat-200 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat200';
-  font-style: normal;
-  font-weight: 200;
-  src: url('fonts/montserrat-v26-latin-200.woff2') format('woff2');
-}
-/* montserrat-200italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat200it';
-  font-style: italic;
-  font-weight: 200;
-  src: url('fonts/montserrat-v26-latin-200italic.woff2') format('woff2');
-}
-/* montserrat-300 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat300';
-  font-style: normal;
-  font-weight: 300;
-  src: url('fonts/montserrat-v26-latin-300.woff2') format('woff2');
-}
-/* montserrat-300italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat300it';
-  font-style: italic;
-  font-weight: 300;
-  src: url('fonts/montserrat-v26-latin-300italic.woff2') format('woff2');
-}
-/* montserrat-regular - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat400';
-  font-style: normal;
-  font-weight: 400;
-  src: url('fonts/montserrat-v26-latin-regular.woff2') format('woff2');
-}
-/* montserrat-italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat400it';
-  font-style: italic;
-  font-weight: 400;
-  src: url('fonts/montserrat-v26-latin-italic.woff2') format('woff2');
-}
+
 /* montserrat-500 - latin */
 @font-face {
   font-display: swap;
   font-family: 'Montserrat500';
   font-style: normal;
   font-weight: 500;
-  src: url('fonts/montserrat-v26-latin-500.woff2') format('woff2');
+  src: url('../fonts/montserrat-v26-latin-500.woff2') format('woff2');
 }
 /* montserrat-500italic - latin */
 @font-face {
@@ -90,7 +26,7 @@
   font-family: 'Montserrat500it';
   font-style: italic;
   font-weight: 500;
-  src: url('fonts/montserrat-v26-latin-500italic.woff2') format('woff2');
+  src: url('../fonts/montserrat-v26-latin-500italic.woff2') format('woff2');
 }
 /* montserrat-600 - latin */
 @font-face {
@@ -98,7 +34,7 @@
   font-family: 'Montserrat600';
   font-style: normal;
   font-weight: 600;
-  src: url('fonts/montserrat-v26-latin-600.woff2') format('woff2');
+  src: url('../fonts/montserrat-v26-latin-600.woff2') format('woff2');
 }
 /* montserrat-600italic - latin */
 @font-face {
@@ -106,7 +42,7 @@
   font-family: 'Montserrat600it';
   font-style: italic;
   font-weight: 600;
-  src: url('fonts/montserrat-v26-latin-600italic.woff2') format('woff2');
+  src: url('../fonts/montserrat-v26-latin-600italic.woff2') format('woff2');
 }
 /* montserrat-700 - latin */
 @font-face {
@@ -114,7 +50,7 @@
   font-family: 'Montserrat700';
   font-style: normal;
   font-weight: 700;
-  src: url('fonts/montserrat-v26-latin-700.woff2') format('woff2');
+  src: url('../fonts/montserrat-v26-latin-700.woff2') format('woff2');
 }
 /* montserrat-700italic - latin */
 @font-face {
@@ -122,114 +58,19 @@
   font-family: 'Montserrat700it';
   font-style: italic;
   font-weight: 700;
-  src: url('fonts/montserrat-v26-latin-700italic.woff2') format('woff2');
-}
-/* montserrat-800 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat800';
-  font-style: normal;
-  font-weight: 800;
-  src: url('fonts/montserrat-v26-latin-800.woff2') format('woff2');
-}
-/* montserrat-800italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat800it';
-  font-style: italic;
-  font-weight: 800;
-  src: url('fonts/montserrat-v26-latin-800italic.woff2') format('woff2');
-}
-/* montserrat-900 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat900';
-  font-style: normal;
-  font-weight: 900;
-  src: url('fonts/montserrat-v26-latin-900.woff2') format('woff2');
-}
-/* montserrat-900italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Montserrat900it';
-  font-style: italic;
-  font-weight: 900;
-  src: url('fonts/montserrat-v26-latin-900italic.woff2') format('woff2');
+  src: url('../fonts/montserrat-v26-latin-700italic.woff2') format('woff2');
 }
 
 
 /* Figtree font */
-/* figtree-300 */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree300';
-  font-style: normal;
-  font-weight: 300;
-  src: url('fonts/Figtree-Light.woff2') format('woff2');
-}
-/* figtree-300italic */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree300it';
-  font-style: italic;
-  font-weight: 300;
-  src: url('fonts/Figtree-LightItalic.woff2') format('woff2');
-}
-/* figtree-400 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree400';
-  font-style: normal;
-  font-weight: 400;
-  src: url('fonts/Figtree-Regular.woff2') format('woff2');
-}
-/* figtree-400italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree400it';
-  font-style: italic;
-  font-weight: 400;
-  src: url('fonts/Figtree-Italic.woff2') format('woff2');
-}
-/* figtree-500 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree500';
-  font-style: normal;
-  font-weight: 500;
-  src: url('fonts/Figtree-Medium.woff2') format('woff2');
-}
-/* figtree-500italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree500it';
-  font-style: italic;
-  font-weight: 500;
-  src: url('fonts/Figtree-MediumItalic.woff2') format('woff2');
-}
-/* figtree-600 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree600';
-  font-style: normal;
-  font-weight: 600;
-  src: url('fonts/Figtree-SemiBold.woff2') format('woff2');
-}
-/* figtree-600italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree600it';
-  font-style: italic;
-  font-weight: 600;
-  src: url('fonts/Figtree-SemiBoldItalic.woff2') format('woff2');
-}
+
 /* figtree-700 - latin */
 @font-face {
   font-display: swap;
   font-family: 'figtree700';
   font-style: normal;
   font-weight: 700;
-  src: url('fonts/Figtree-Bold.woff2') format('woff2');
+  src: url('../fonts/Figtree-Bold.woff2') format('woff2');
 }
 /* figtree-700italic - latin */
 @font-face {
@@ -237,39 +78,7 @@
   font-family: 'figtree700it';
   font-style: italic;
   font-weight: 700;
-  src: url('fonts/Figtree-BoldItalic.woff2') format('woff2');
-}
-/* figtree-800 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree800';
-  font-style: normal;
-  font-weight: 800;
-  src: url('fonts/Figtree-ExtraBold.woff2') format('woff2');
-}
-/* figtree-800italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree800it';
-  font-style: italic;
-  font-weight: 800;
-  src: url('fonts/Figtree-ExtraBoldItalic.woff2') format('woff2');
-}
-/* figtree-900 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree900';
-  font-style: normal;
-  font-weight: 900;
-  src: url('fonts/Figtree-Black.woff2') format('woff2');
-}
-/* figtree-900italic - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'figtree900it';
-  font-style: italic;
-  font-weight: 900;
-  src: url('fonts/Figtree-BlackItalic.woff2') format('woff2');
+  src: url('../fonts/Figtree-BoldItalic.woff2') format('woff2');
 }
 
 
@@ -279,6 +88,7 @@ body {
   background: var(--background-color);
   text-align: center;
   margin: 0;
+  font-family: 'Montserrat600', serif;
 }
 
 header {
@@ -291,7 +101,7 @@ header {
 }
 
 html {
-  font-size: var(--font-size);
+  font-size: 62.5%;
 }
 
 a {
@@ -371,7 +181,7 @@ footer {
 
 .read {
 
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.14;
   display: inline-flex;
@@ -409,7 +219,7 @@ footer {
 
 .read7 {
   color: #707F8D;
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.14;
   display: inline-flex;
@@ -493,7 +303,7 @@ footer {
 .alldesign {
   display: flex;
   color: #8395A7;
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.15;
   list-style-type: none;
@@ -507,7 +317,7 @@ footer {
 
 .alldesignone {
   color: var(--yellow);
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.28;
 }
@@ -549,7 +359,7 @@ footer {
   display: flex;
   gap: 0.5em;
   color: var(--text-color);
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.2rem;
   line-height: 1.5;
   flex-wrap: wrap;
@@ -577,7 +387,7 @@ footer {
 .worktext {
   color: #FFF;
   text-align: center;
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
@@ -669,7 +479,7 @@ footer {
 
 .weektext {
   color: #9AAFC3;
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.9rem;
   line-height: 1.47;
   margin-top: 8px;
@@ -690,7 +500,7 @@ footer {
 
 .emailtext {
   color: #3D4C5B;
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.28;
   background: #121E28;
@@ -699,7 +509,7 @@ footer {
 
 .subbutton {
   color: #10151A;
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.71;
   display: flex;
@@ -843,7 +653,7 @@ footer {
 
 .presstext {
   color: #10151A;
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.3rem;
   line-height: 1.69;
   opacity: 0.8;
@@ -902,7 +712,7 @@ footer {
 
 .podcastnamepod {
   color: #E2E2E2;
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.71;
   opacity: 0.8;
@@ -911,7 +721,7 @@ footer {
 
 .podcastfirstsecond {
   color: #E2E2E2;
-  font-family: 'Montserrat600', serif;
+  /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.42;
   opacity: 0.8;
@@ -976,7 +786,7 @@ footer {
 
 .footlink {
   color: var(--text-color);
-  font-family: 'Montserrat600',serif;
+  /* font-family: 'Montserrat600',serif; */
   font-size: 1.4rem;
   line-height: normal;
 }
