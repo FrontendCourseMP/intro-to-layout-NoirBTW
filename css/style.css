@@ -7,6 +7,10 @@
   --yellow: #FFC803;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 
 /* Шрифты */
 
@@ -456,7 +460,6 @@ footer {
 }
 
 .sectionweek {
-  display: flex;
   flex-direction: column;
   flex-shrink: 0;
   justify-items: center;
@@ -512,19 +515,18 @@ footer {
   /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.71;
-  display: flex;
   padding: 10px 0px;
-  justify-content: center;
-  align-items: center;
   border-radius: 10px;
   background: var(--purple-light, #E2C1F9);
   margin-top: 16px;
   margin-inline: 24px;
   margin-bottom: 24px;
+  width: 86.5%;
 }
 
 .backdiv {
   margin-top: 80px;
+  overflow-x: hidden;
 }
 
 .textback {
