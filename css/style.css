@@ -373,7 +373,7 @@ footer {
   align-items: center;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .worksul {
     max-width: 640px;
   }
@@ -570,6 +570,9 @@ footer {
 .presssection {
   margin-inline: 16px;
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pressimg {
@@ -597,6 +600,8 @@ footer {
   background: #77E6FF;
   text-align: start;
   margin-bottom: 16px;
+  margin-inline: 16px;
+  max-width: 400px;
 }
 
 .pressblock2 h3 {
@@ -620,6 +625,8 @@ footer {
   background: #E2C1F9;
   text-align: start;
   margin-bottom: 16px;
+  margin-inline: 16px;
+  max-width: 400px;
 }
 
 .pressblock3 h3 {
@@ -643,6 +650,8 @@ footer {
   background: #DBE268;
   text-align: start;
   margin-bottom: 40px;
+  margin-inline: 16px;
+  max-width: 400px;
 }
 
 .pressh {
@@ -654,7 +663,6 @@ footer {
 
 .presstext {
   color: #10151A;
-  /* font-family: 'Montserrat600', serif; */
   font-size: 1.3rem;
   line-height: 1.69;
   opacity: 0.8;
@@ -679,6 +687,9 @@ footer {
 
 .podsec {
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .textpod {
@@ -695,8 +706,9 @@ footer {
   background: #121E28;
   backdrop-filter: blur(2px);
   text-align: start;
-  margin-inline: 16px;
   margin-bottom: 16px;
+  margin-inline: 16px;
+  max-width: 400px;
 }
 
 .podimg {
@@ -791,4 +803,11 @@ footer {
   /* font-family: 'Montserrat600',serif; */
   font-size: 1.4rem;
   line-height: normal;
+}
+
+
+/* <768 */
+
+@media screen and (min-width: ){
+  
 }
