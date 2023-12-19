@@ -81,11 +81,31 @@ body {
     width: 100%;
     display: grid;
     border-radius: 10px;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(7, minmax(0, 1fr));
     gap: 8px;
     border: 3px solid rgb(0, 0, 0);
     overflow: hidden;
-    margin: 100px 20px;
+    margin: 100px 40px;
+}
+
+.main__divlinks {
+    grid-row: span 4;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.main__ullinks {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-family: 'Montserrat500';
+    font-size: 2rem;
+    gap: 16px;
+    margin: 10px auto;
+}
+
+a {
+    color: #b39f0a;
 }
 
 .main__imggraph {
