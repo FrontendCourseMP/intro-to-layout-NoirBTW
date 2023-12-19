@@ -114,7 +114,6 @@ a {
 
 footer {
   margin-top: 80px  ;
-  
 }
 
 
@@ -757,9 +756,10 @@ footer {
   }
 
 .footwrap {
-  max-width: 220px;
+  /* max-width: 220px; */
   padding: 32px 70px 32px 70px;
   margin-inline: auto;
+  width: 100%;
 }
 
 .footsec {
@@ -792,4 +792,3 @@ footer {
   font-size: 1.4rem;
   line-height: normal;
 }
-
