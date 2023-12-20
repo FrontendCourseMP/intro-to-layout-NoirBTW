@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <title>SuperdaoGrid</title>
+    <link rel="stylesheet" href="css/form.css">
+    <title>SuperdaoForm</title>
 </head>
 <body>
     <header>
@@ -18,80 +18,71 @@
         </button>
     </header>
     <main>
-        <section class="main__sectionmondrian">
-            <div class="main__divmondrian">
-                <div class="main__divcolor1"></div>
-                <div class="main__divcolor2"></div>
-                <div class="main__divcolor3"></div>
-                <div class="main__divcolor4"></div>
-                <div class="main__divcolor5"></div>
-                <div class="main__divcolor6"></div>
-                <div class="main__divcolor7"></div>
-                <div class="main__divcolor8"></div>
-                <div class="main__divcolor9"></div>
-            </div>
-        </section>
-        <section class="main__sectiongraph">
-            <div class="main__divgraph">
-                <div class="main__divlinks">
-                    <ul class="main__ullinks">
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                        <a href="">Link</a>
-                    </ul>
-                </div>
-                <img src="image/1.svg" alt="img1" class="main__imggraph1">
-                <img src="image/2.svg" alt="img2" class="main__imggraph2">
-                <img src="image/3.svg" alt="img3" class="main__imggraph3">
-                <img src="image/4 (1).svg" alt="img4" class="main__imggraph4">
-                <img src="image/5.svg" alt="img5" class="main__imggraph5">
-                <img src="image/6.svg" alt="img6" class="main__imggraph6">
-            </div>
-        </section>
-        <section>
-            <div class="main__divgalery">
-                <div class="main__divcard">
-                    <img src="image/256790-blackangel.jpg" alt="" class="imagegal">
-                    <a href="" class="linkgal">Gears of War</a>
-                </div>
-                <div class="main__divcard">
-                    <img src="image/81be629b74c5634e4c0293b7ce379ce2.jpg" alt="" class="imagegal">
-                    <a href="" class="linkgal">The Wither 3</a>
-                </div>
-                <div class="main__divcard">
-                    <img src="image/90cac23736b1f90c754575901b519cc8.jpg" alt="" class="imagegal">
-                    <a href="" class="linkgal">The Crew</a>
-                </div>
-                <div class="main__divcard">
-                    <img src="image/bef4ce385b06e6b84639402a8f9161b7.jpeg" alt="" class="imagegal">
-                    <a href="" class="linkgal">Prince of Persia</a>
-                </div>
-                <div class="main__divcard">
-                    <img src="image/c83a548fa9f5139531fd97fed9f5be68.jpeg" alt="" class="imagegal">
-                    <a href="" class="linkgal">Crisis</a>
-                </div>
-                <div class="main__divcard">
-                    <img src="image/Division_screen_1_9lra-4d.jpg" alt="" class="imagegal">
-                    <a href="" class="linkgal">The Division</a>
-                </div>
-            </div>
-        </section>
+      <form class="main__form" method="post" action="//httpbin.org/post">
+        <h1 class="main__formtitle">Register</h1>
+        <fieldset class="main__formfieldset">
+          <label class="main__formlabel">
+            <span class="main__labelrow">
+              <span>Name *</span>
+            </span>
+            <input class="main__forminput" type="text" name="name" id="name" placeholder="Alexandr" required />
+          </label>
+          <label class="main__formlabel">
+            <span class="main__labelrow">
+              <span>Birthday *</span>
+            </span>
+            <input class="main__forminput" type="date" name="birthday" id="birthday" required />
+          </label>
+          <label class="main__formlabel">
+            <span class="main__labelrow">
+              <span>Gender</span>
+            </span>
+            <select class="main__forminput" name="gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </label>
+          <label class="main__formlabel">
+            <span class="main__labelrow">
+              <span>Password *</span>
+            </span>
+            <input class="main__forminput" type="password" name="password" required />
+          </label>
+        </fieldset>
+        <fieldset class="main__formfieldset">
+          <label class="main__formlabel">
+            <span class="main__labelrow">
+              <span>Email *</span>
+            </span>
+            <input class="main__forminput" type="email" name="email" id="email" placeholder="example@domain.com" required/>
+          </label>
+          <label class="main__formlabel">
+            <span class="main__labelrow">
+              <span>Phone number *</span>
+            </span>
+            <input class="main__forminput" type="tel" name="tel-number" id="tel-number" placeholder="+7 (999) 999-99-99" required/>
+          </label>
+          <label class="main__formlabel">
+              <fieldset class="main__fieldset">
+                <legend style="font-size: 1.5rem;">Choose time to call</legend>
+            
+                <input type="radio" id="morning" name="time" value="M" />
+                <label for="morning">Morning</label><br />
+            
+                <input type="radio" id="afternoon" name="time" value="A" />
+                <label for="afternoon">Afternoon</label><br />
+            
+                <input type="radio" id="evening" name="time" value="E" />
+                <label for="evening">Evening</label><br />
+            
+                <input type="radio" id="night" name="time" value="N" />
+                <label for="night">Night</label>
+              </fieldset>
+          </label>
+        </fieldset>
+        <button class="main__formbutton main__formsubmit-button" type="submit">Sign Up</button>
+        <button class="main__formbutton main__formreset-button" type="reset">clear form</button>
+      </form>
     </main>
     <footer class="footsec">
         <div class="footwrap">
@@ -167,9 +158,9 @@
                     </a></li>
             </ul>
             <div style="margin-top: 30px; display: flex; justify-content: center; font-size: 1.5rem; gap: 32px;">
-                <a href="index.html" style="color: white;">Superdao</a>
-                <a href="form.html" style="color: white;">Form</a>
-                </div>
+              <a href="grid.html" style="color: white;">Grid</a>
+              <a href="index.html" style="color: white;">Superdao</a>
+              </div>
         </div>
     </footer>
 </body>

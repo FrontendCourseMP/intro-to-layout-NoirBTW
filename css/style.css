@@ -113,7 +113,9 @@ a {
 }
 
 footer {
-  margin-top: 80px  ;
+  margin-top: 80px;
+  position: sticky;
+  top: 100vh;
 }
 
 
@@ -543,7 +545,7 @@ footer {
   padding: 0;
   align-items: center;
   margin-top: 0px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .backul2 {
@@ -800,14 +802,6 @@ footer {
 
 .footlink {
   color: var(--text-color);
-  /* font-family: 'Montserrat600',serif; */
   font-size: 1.4rem;
   line-height: normal;
-}
-
-
-/* <768 */
-
-@media screen and (min-width: ){
-  
 }
