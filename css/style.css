@@ -121,9 +121,27 @@ footer {
 
 /* Классы */
 
-.backgroundmenu {
+.menubutton {
   background: #0b1219;
   border: none;
+  transition: filter 0.2s ease-out;
+}
+
+.menubutton:hover {
+  filter: brightness(2);
+  transform: scale(1.2);
+  opacity: 1;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.menubutton:focus {
+  filter: brightness(2);
+  transform: scale(1.2);
+}
+
+.menubutton:active {
+  filter: brightness(2);
 }
 
 .DAOsec {
@@ -161,6 +179,24 @@ footer {
   box-shadow: 0px 7px 36px 0px rgba(255, 207, 1, 0.20);
   margin-top: 40px;
   margin-bottom: 0px;
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.linkget:hover {
+  filter: brightness(1.2);
+  transform: scale(1.2);
+  background-color: green;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.linkget:focus {
+  filter: brightness(1.2);
+  transform: scale(1.2);
+}
+
+.linkget:active {
+  filter: brightness(1.2);
 }
 
 .redsec {
@@ -223,7 +259,7 @@ footer {
 }
 
 .read7 {
-  color: #707F8D;
+  color: #1eb700;
   /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.14;
@@ -236,7 +272,24 @@ footer {
   border-radius: 44.939px;
   background: #182632;
   border: none;
-  margin: 6px;
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.read7:hover {
+  filter: brightness(2);
+  transform: scale(1.05);
+  background-color: green;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.read7:focus {
+  filter: brightness(2);
+  transform: scale(1.05);
+}
+
+.read7:active {
+  filter: brightness(2);
 }
 
 .art {
@@ -277,7 +330,7 @@ footer {
 }
 
 .designul {
-  color: #37424D;
+  color: #1eb700;
   font-family: 'figtree700', serif;
   font-size: 2rem;
   line-height: 1.8;
@@ -287,7 +340,7 @@ footer {
 }
 
 .designulone {
-  color: #23C9DE;
+  color: #2af4ff;
   font-family: 'figtree700', serif;
   font-size: 2rem;
   line-height: 1.8;
@@ -345,10 +398,28 @@ footer {
   border-radius: 8px;
   background: rgba(255, 207, 1, 0.15);
   margin-top: 22px;
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
 }
 
 .linkwatch img {
   margin-right: 8px;
+}
+
+.linkwatch:hover {
+  filter: brightness(1.7);
+  transform: scale(1.2);
+  background-color: green;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.linkwatch:focus {
+  filter: brightness(1.7);
+  transform: scale(1.2);
+}
+
+.linkwatch:active {
+  filter: brightness(1.7);
 }
 
 .textwork {
@@ -462,7 +533,7 @@ footer {
 
 .sectionweek {
   flex-direction: column;
-  flex-shrink: 0;
+  flex-shrink: 1;
   justify-items: center;
   border-radius: 22px;
   border: 1px solid #2A3744;
@@ -491,29 +562,26 @@ footer {
   margin-inline: 24px;
 }
 
-.emailblock {
-  padding: 13px 0px 13px 18px;
+.emailtext {
+  display: flex;
+  font-size: 1.4rem;
+  line-height: 1.28;
+  padding: 13px 113px 13px 18px;
   border-radius: 10px;
-  border: 1px solid #2A3744;
-  background: #121E28;
+  border: 1px solid #000000;
+  background: #1279bf;
   margin-top: 24px;
   margin-bottom: 0px;
   margin-inline: 24px;
   text-align: start;
 }
 
-.emailtext {
-  color: #3D4C5B;
-  /* font-family: 'Montserrat600', serif; */
-  font-size: 1.4rem;
-  line-height: 1.28;
-  background: #121E28;
-  border: none;
+.emailtext input::placeholder {
+  color: #1eb700;
 }
 
 .subbutton {
   color: #10151A;
-  /* font-family: 'Montserrat600', serif; */
   font-size: 1.4rem;
   line-height: 1.71;
   padding: 10px 0px;
@@ -523,6 +591,24 @@ footer {
   margin-inline: 24px;
   margin-bottom: 24px;
   width: 86.5%;
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.subbutton:hover {
+  filter: brightness(1.3);
+  transform: scale(1.05);
+  background-color: green;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.subbutton:focus {
+  filter: brightness(1.3);
+  transform: scale(1.05);
+}
+
+.subbutton:active {
+  filter: brightness(1.3);
 }
 
 .backdiv {
@@ -675,6 +761,24 @@ footer {
   font-family: 'Montserrat700', serif;
   font-size: 1.4rem;
   line-height: normal;
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.presslink:hover {
+  filter: brightness(2);
+  transform: scale(1.2);
+  background-color: green;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.presslink:focus {
+  filter: brightness(2);
+  transform: scale(1.2);
+}
+
+.presslink:active {
+  filter: brightness(2);
 }
 
 .presssee {
@@ -685,6 +789,24 @@ footer {
   font-size: 1.8rem;
   line-height: 1.77;
   margin-bottom: 0px;
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.presssee:hover {
+  filter: brightness(2);
+  transform: scale(1.2);
+  background-color: green;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.presssee:focus {
+  filter: brightness(2);
+  transform: scale(1.2);
+}
+
+.presssee:active {
+  filter: brightness(2);
 }
 
 .podsec {
@@ -752,6 +874,24 @@ footer {
   align-items: center;
   gap: 8px;
   margin: 0px 8px 20px 20px;
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.podacstlink:hover {
+  filter: brightness(2);
+  transform: scale(1.2);
+  background-color: green;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.podacstlink:focus {
+  filter: brightness(2);
+  transform: scale(1.2);
+}
+
+.podacstlink:active {
+  filter: brightness(2);
 }
 
 .pressseea {
@@ -767,7 +907,25 @@ footer {
   margin-inline: auto;
   justify-content: center;
   align-items: center;
-  }
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.pressseea:hover {
+  filter: brightness(2);
+  transform: scale(1.2);
+  background-color: green;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.pressseea:focus {
+  filter: brightness(2);
+  transform: scale(1.2);
+}
+
+.pressseea:active {
+  filter: brightness(2);
+}
 
 .footwrap {
   /* max-width: 220px; */
@@ -804,4 +962,90 @@ footer {
   color: var(--text-color);
   font-size: 1.4rem;
   line-height: normal;
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.footlink:hover {
+  filter: brightness(20);
+  transform: scale(1.2);
+  background-color: green;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.footlink:focus {
+  filter: brightness(20);
+  transform: scale(1.2);
+}
+
+.footlink:active {
+  filter: brightness(20);
+}
+
+.footlogo {
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.footlogo:hover {
+  filter: brightness(2);
+  transform: scale(1.2);
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.footlogo:focus {
+  filter: brightness(2);
+  transform: scale(1.2);
+}
+
+.footlogo:active {
+  filter: brightness(2);
+}
+
+.linknext {
+  color: white;
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.linknext:hover {
+  filter: brightness(2);
+  transform: scale(1.2);
+  background-color: green;
+  color: red;
+  box-shadow: 2px 2px 20px rgba(14, 58, 154, 0.593);
+}
+
+.linknext:focus {
+  filter: brightness(2);
+  transform: scale(1.2);
+}
+
+.linknext:active {
+  filter: brightness(2);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.skip-link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 10px 15px;
+  color: #18191c;
+  background: #10F3AF;
+  transform: translateY(-100%);
+}
+
+.skip-link:focus {
+  transform: translateY(20%);
 }
