@@ -214,6 +214,7 @@ footer {
 }
 
 .footlogo1 {
+  display: block;
   transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
   transform: rotate(30deg) scale(1.5) skew(30deg);
 }
