@@ -1317,16 +1317,18 @@ input::placeholder {
 .backli2 {
   list-style-type: none;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 1200px) {
   .backli2 {
     display: none;
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .backli2 {
+@media screen and (max-width: 1199px) {
+  .backli3 {
     display: none;
   }
 }
@@ -1799,6 +1801,18 @@ input::placeholder {
 }
 
 .podacstlink {
+  color: var(--text-color);
+  font-family: 'Montserrat700', serif;
+  font-size: 1.2rem;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0px 8px 20px 20px;
+  transition: translate 0.1s ease-in, opacity 0.1s ease-in, visibility 0.1s cubic-bezier(1, 0.12, 0.85, 1.32), transform 0.3s ease;
+}
+
+.podacstlink1 {
   color: var(--text-color);
   font-family: 'Montserrat700', serif;
   font-size: 1.2rem;
